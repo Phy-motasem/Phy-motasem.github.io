@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة الأستاذ معتصم الأزايدة</title>
+    
+    <!-- الخطوط والأيقونات -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ملف التنسيق -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- مكتبة قراءة ملفات CSV -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+    <!-- الترويسة -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <i class="fa-solid fa-book-open"></i>
+                <span id="site-title">منصة الأستاذ معتصم</span>
+            </div>
+            <a href="#download" class="btn btn-outline">حمل التطبيق الآن</a>
+        </div>
+    </header>
+
+    <!-- قسم الهيرو (الرئيسي) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge" id="hero-badge">طريقك نحو العلامة الكاملة 🚀</div>
+                <h1 id="hero-title">منصة الفيزياء</h1>
+                <p id="hero-subtitle">مع الأستاذ معتصم الأزايدة</p>
+                
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fa-brands fa-google-play"></i> تنزيل للأندرويد
+                    </a>
+                    <a href="#" id="whatsapp-btn" class="btn btn-whatsapp" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> تواصل معنا
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-glow"></div>
+                <img src="https://cdn.myimgs.org/images/53021/motasem.png" alt="الأستاذ معتصم" id="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم مميزات التطبيق -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">لماذا تطبيق منصة الفيزياء؟</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>دروس مسجلة بجودة عالية</h3>
+                    <p>شرح تفصيلي وشامل لكل وحدات المادة لضمان الفهم العميق.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <h3>دوسيات ومذكرات جاهزة</h3>
+                    <p>حمل ملخصات وأوراق عمل مباشرة من داخل التطبيق بصيغة PDF.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-bell"></i>
+                    <h3>إشعارات وتنبيهات فورية</h3>
+                    <p>ابقَ على اطلاع دائم بمواعيد الامتحانات والحصص الجديدة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم لقطات الشاشة -->
+    <section class="screenshots" id="download">
+        <div class="container">
+            <h2 class="section-title">نظرة من داخل التطبيق</h2>
+            <div class="screenshots-gallery">
+                <!-- استبدل هذه الروابط بمسار لقطات الشاشة الحقيقية للتطبيق -->
+                <img src="assets/screen1.png" alt="شاشة رئيسية" class="app-screen" onerror="this.src='https://via.placeholder.com/250x500/2563eb/ffffff?text=شاشة+1'">
+                <img src="assets/screen2.png" alt="شاشة الدروس" class="app-screen" onerror="this.src='https://via.placeholder.com/250x500/2563eb/ffffff?text=شاشة+2'">
+                <img src="assets/screen3.png" alt="شاشة المفضلة" class="app-screen" onerror="this.src='https://via.placeholder.com/250x500/2563eb/ffffff?text=شاشة+3'">
+            </div>
+            
+            <div class="download-box">
+                <h3>جاهز لتبدأ رحلة التفوق؟</h3>
+                <!-- ضع رابط الـ APK المباشر هنا عندما تستخرجه -->
+                <a href="app-release.apk" class="btn btn-primary btn-large" download>
+                    <i class="fa-solid fa-download"></i> تحميل مباشر (APK)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <div class="container footer-content">
+            <p>جميع الحقوق محفوظة &copy; 2026 - منصة الأستاذ معتصم الأزايدة</p>
+            <div class="footer-links">
+                <a href="#" id="email-btn" title="راسلنا"><i class="fa-solid fa-envelope"></i></a>
+                <span>تطوير: <a href="https://ufug.org" target="_blank" style="color:var(--amber);">ufBuild</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ملف الجافاسكريبت -->
+    <script src="script.js"></script>
+</body>
+</html>
