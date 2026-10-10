@@ -31,10 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (config.heroSubtitle) document.getElementById('hero-subtitle').textContent = config.heroSubtitle;
         if (config.heroBadge) document.getElementById('hero-badge').textContent = config.heroBadge;
         
-        // تحديث صورة الأستاذ
-        if (config.heroImage) {
-            document.getElementById('hero-image').src = config.heroImage;
-        }
 
         // تحديث أزرار التواصل
         if (config.phone) {
