@@ -106,6 +106,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--primary) 0%, var(--indigo) 100%);
     color: var(--white);
+    padding: 60px 0 20px;
     overflow: hidden;
 }
 
