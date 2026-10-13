@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // تحديث أزرار التواصل
         if (config.phone) {
             const waBtn = document.getElementById('whatsapp-btn');
-            waBtn.href = `https://wa.me/${config.phone}?text=${encodeURIComponent("مرحباً، أود الاستفسار بخصوص منصة الفيزياء.")}`;
+            waBtn.href = `https://wa.me/${config.phone}?text=${encodeURIComponent("مرحباً، أود الاستفسار بخصوص منصة الأستاذ معتصم.")}`;
         }
         
         if (config.email) {
